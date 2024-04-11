@@ -1,0 +1,18 @@
+.subtitle {
+    font-weight: 400;
+    font-size: 21px;
+    color: black;
+    margin-bottom: 18px;
+
+    &.subtitle--edit{
+        margin-bottom: 36px;
+    }
+
+    &.subtitle--change{
+        width: 1020px;
+        margin-bottom: 48px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}

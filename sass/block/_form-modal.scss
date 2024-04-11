@@ -1,0 +1,31 @@
+.form-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+
+    width: 1400px;
+    padding-top: 182px;
+    padding-bottom: 182px;
+    border-radius: 8px;
+    background-color: #F3F4FE;
+
+    &.form-modal--active{
+        display: block;
+    }
+}
+.form-modal__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+}
+.form-modal__info {
+    width: 572px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #737BE1;
+}

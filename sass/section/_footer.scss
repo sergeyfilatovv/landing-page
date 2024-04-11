@@ -1,0 +1,16 @@
+.footer {
+    padding-top: 61px;
+    padding-bottom: 61px;
+    background-color: #4F58C9;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}

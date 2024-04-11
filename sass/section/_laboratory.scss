@@ -1,0 +1,41 @@
+.laboratory {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #EBECFA;
+}
+.laboratory__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.laboratory__desc {
+    width: 1020px;
+}
+
+.laboratory__link{
+    display: inline-block;
+    position: relative;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 52px;
+    border-radius: 8px;
+    background-color: #737BE1;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 21px;
+
+    &::after{
+        content: "";
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        background-image: url('../../img/laboratory/icons/arrow-icon.svg');
+        background-repeat: no-repeat;
+        background-position: right;
+        position: absolute;
+        right: 18px;
+        top: 14.5px;
+    }
+}

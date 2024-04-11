@@ -1,0 +1,15 @@
+.title {
+    font-weight: 600;
+    font-size: 36px;
+    color: black;
+    margin-bottom: 36px;
+
+    &.title--edit{
+        margin-bottom: 48px;
+    }
+
+    &.title--change{
+        text-align: center;
+        margin-bottom: 48px;
+    }
+}

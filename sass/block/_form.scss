@@ -1,0 +1,44 @@
+.form {
+ 
+}
+
+.form__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.form__group {
+   display: flex;
+   justify-content: center;
+   column-gap: 19px;
+   margin-bottom: 48px;
+}
+.form__item {
+    width: 280px;
+    height: 53px;
+    border-radius: 8px;
+    padding: 12px 8px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.4;
+    color: black;
+
+    &:focus{
+        outline: 2px solid #737BE1;
+    }
+
+
+    &.form__item--accent{
+        outline: 2px solid #737BE1;
+    }
+
+    &.form__item--error{
+        outline: 2px solid #E17373;
+    }
+
+    &::placeholder{
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+}
