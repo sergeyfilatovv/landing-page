@@ -228,6 +228,7 @@ body > * {
 }
 
 .header-top__contacts {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -243,7 +244,24 @@ body > * {
 }
 @media (max-width: 1430px) {
   .header-top__block {
-    display: none;
+    position: absolute;
+    z-index: 10;
+    left: -123px;
+    bottom: -60px;
+    width: 170px;
+    padding: 4px 8px;
+    background-color: #E9EAF9;
+    border-radius: 8px;
+    border: 1px solid #737BE1;
+  }
+}
+
+.header-top__icon {
+  /* Mobile */
+}
+@media (max-width: 1430px) {
+  .header-top__icon {
+    cursor: pointer;
   }
 }
 

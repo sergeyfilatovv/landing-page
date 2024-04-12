@@ -51,6 +51,7 @@
 }
 
 .header-top__contacts {
+    position: relative;
     display: flex;
     column-gap: 9px;
     align-items: center;
@@ -58,9 +59,29 @@
 .header-top__block {
     /* Mobile*/
     @media (max-width: 1430px) {
-        display: none;
+        position: absolute;
+        // display: none;
+        z-index: 10;
+        left: -123px;
+        bottom: -60px;
+        width: 170px;
+        padding: 4px 8px;
+        background-color: #E9EAF9;
+        border-radius: 8px;
+        border: 1px solid #737BE1;
+        
     }
+
 }
+
+.header-top__icon{
+    /* Mobile */
+    @media (max-width: 1430px) {
+        cursor: pointer;
+    }
+   
+}
+
 .header-top__link {
     font-weight: 600;
     font-size: 18px;
