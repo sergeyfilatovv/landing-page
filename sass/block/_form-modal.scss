@@ -15,12 +15,30 @@
     &.form-modal--active{
         display: block;
     }
+
+    /* Mobile */
+    @media (max-width: 1430px) {
+        width: 800px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 900px) {
+        width: 360px;
+    }
 }
 .form-modal__wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 24px;
+
+    /* Mobile */
+    @media (max-width: 1430px) {
+        flex-direction: column;
+        column-gap: unset;
+        row-gap: 24px;
+        align-items: center;
+    }
 }
 .form-modal__info {
     width: 572px;
@@ -28,4 +46,15 @@
     font-size: 22px;
     line-height: 1.4;
     color: #737BE1;
+
+    /* Mobile */
+    @media (max-width: 1430px) {
+        text-align: center;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 900px) {
+        width: 324px;
+        font-size: 18px;
+    }
 }

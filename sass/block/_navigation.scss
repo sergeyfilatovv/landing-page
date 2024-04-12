@@ -1,3 +1,11 @@
+.navigation{
+    /* Mobile XS */
+    @media (max-width: 900px) {
+        display: none;
+    }
+    
+}
+
 .navigation__list {
     display: flex;
     align-items: center;
@@ -5,10 +13,21 @@
     font-weight: 500;
     font-size: 18px;
     color: #000000;
+
+    /* Mobile */
+    @media (max-width: 1430px) {
+        column-gap: 16px;
+        font-size: 16px;
+    }
 }
 .navigation__line {
     padding: 8px 24px;
     transition: all ease-in 0.15s;
+
+    /* Mobile */
+    @media (max-width: 1430px) {
+        padding: 6px 12px;
+    }
     
     &:hover{
         border-radius: 4px;

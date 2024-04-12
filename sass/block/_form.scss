@@ -12,6 +12,19 @@
    justify-content: center;
    column-gap: 19px;
    margin-bottom: 48px;
+    /* Mobile */
+    @media (max-width: 1430px) {
+        margin-bottom: 42px;
+    }
+   /* Mobile XS */
+   @media (max-width: 900px) {
+    flex-direction: column;
+    column-gap: unset;
+    row-gap: 19px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 36px;
+   }
 }
 .form__item {
     width: 280px;
@@ -22,6 +35,17 @@
     font-size: 21px;
     line-height: 1.4;
     color: black;
+    /* Mobile */
+    @media (max-width: 1430px) {
+        width: 220px;
+        height: 46px;
+    }
+    /* Mobile XS */
+    @media (max-width: 900px) {
+        width: 324px;
+        height: 49px;
+        font-size: 18px;
+    }
 
     &:focus{
         outline: 2px solid #737BE1;

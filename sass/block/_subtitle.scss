@@ -4,8 +4,17 @@
     color: black;
     margin-bottom: 18px;
 
+      /* Mobile XS */
+      @media (max-width: 900px) {
+        font-size: 18px;
+    }
+
     &.subtitle--edit{
         margin-bottom: 36px;
+        /* Mobile XS */
+        @media (max-width: 900px) {
+            margin-bottom: 24px;
+        }
     }
 
     &.subtitle--change{
@@ -14,5 +23,16 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        /* Mobile */
+        @media (max-width: 1430px) {
+            width: 820px;
+            margin-bottom: 36px;
+        }
+        /* Mobile XS */
+        @media (max-width: 900px) {
+            width: 324px;
+            text-align: left;
+            
+        }
     }
 }

@@ -8,9 +8,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    /* Mobile XS */
+    @media (max-width: 900px) {
+        flex-direction: column;
+        row-gap: 18px;
+        justify-content: center;
+    }
 }
 .footer__info {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
+
+    /* Mobile XS */
+    @media (max-width: 900px) {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+.footer__logo{
+    /* Mobile XS */
+    @media (max-width: 900px) {
+        width: 150px;
+        height: 23px;
+    }
+   
 }

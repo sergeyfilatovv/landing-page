@@ -3,13 +3,44 @@
     font-size: 36px;
     color: black;
     margin-bottom: 36px;
+    /* Mobile */
+    @media (max-width: 1430px) {
+        margin-bottom: 24px;
+        font-size: 28px;
+    }
 
     &.title--edit{
         margin-bottom: 48px;
+        /* Mobile */
+        @media (max-width: 1430px) {
+            width: 330px;
+            margin-bottom: 24px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+           
+        }
+
+        /* Mobile XS */
+        @media (max-width: 900px) {
+            margin-left: unset;
+            margin-right: unset;
+            text-align: unset;
+        }
+    
     }
 
     &.title--change{
         text-align: center;
         margin-bottom: 48px;
+        /* Mobile */
+        @media (max-width: 1430px) {
+            margin-bottom: 36px;
+        }
+        /* Mobile XS */
+        @media (max-width: 900px) {
+            text-align: left;
+        }
     }
+
 }

@@ -1,5 +1,12 @@
 .request {
     padding-bottom: 96px;
+
+    /* Mobile XS */
+    @media (max-width: 900px) {
+        padding-bottom: 36px;
+        // background-color: #EBECFA;
+
+    }
   
 }
 
